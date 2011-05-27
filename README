@@ -1,0 +1,15 @@
+SSH Plugin for qnotifier
+==========================
+
+1. Install the Net:SSH gem: `gem install net-ssh`
+
+2. Enable the plugin in the qnotifier config.
+
+3. Create a locked down user with a chroot. Then login as the same user you use to run qnotifier and copy your ssh key across e.g.: `ssh-copy-id lockeddownuser@localhost`   
+
+4. Edit the file replacing <hostname> and <user> with your own (localhost, lockeddownuser)
+
+5. Run qnotifier
+
+
+
